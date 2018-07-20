@@ -2,12 +2,13 @@
 
 use Faker\Generator as Faker;
 use App\Property;
+use App\Comuna;
 
 $factory->define(App\Property::class, function (Faker $faker) {
     return [
       'folio' => $faker->unique()->numberBetween($min = 1000, $max = 9000),
       'address' => $faker->streetAddress,
-      'comuna_id' => $faker->numberBetween($min = 1101, $max = 15202)
+      'comuna_id' => App\Comuna::inRandomOrder()->first()->id
     ];
 });
 
