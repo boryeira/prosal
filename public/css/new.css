@@ -1,0 +1,100 @@
+/* Login */
+body.backgroundLogin {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(117, 54, 230, 0.1); }
+
+.login-content {
+  max-width: 90vw;
+  padding: 0 10px 30px 10px;
+  margin: 100px auto 50px; }
+
+@media (min-width: 768px) {
+  .login-content {
+    max-width: 450px;
+    padding: 0 20px 20px 20px; } }
+
+@media (min-width: 1024px) {
+  .login-content {
+    max-width: 400px; } }
+
+.auth-head-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #fff;
+  color: #5c6bc0;
+  -webkit-box-shadow: 0 5px 20px #d6dee4;
+  box-shadow: 0 5px 20px #d6dee4;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2; }
+
+.ibox .ibox-body {
+  padding: 25px 40px 25px; }
+
+.ui-switch span {
+  background-color: #EDF9FF !important;
+  border: 1px solid rgba(4, 31, 95, 0.1) !important; }
+
+.ui-switch input:checked ~ span:after {
+  background-color: rgba(4, 31, 95, 0.8) !important; }
+
+.logo {
+  margin: 20px 0; }
+  .logo .intranetLogo {
+    width: 220px; }
+
+.remember-zone {
+  display: block;
+  margin-top: 1.8em; }
+
+.form-control:focus {
+  border-color: #041F5F !important; }
+
+/* Enlaces */
+a.link-primary {
+  color: #041F5F !important;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  a.link-primary:hover, a.link-primary:focus {
+    color: #00375E !important; }
+
+/* Tipografia */
+.link-small {
+  font-size: 0.9em;
+  opacity: 0.8; }
+
+.text-remember {
+  margin-left: 10px;
+  color: #292C31; }
+
+/* Header */
+header.header {
+  background-color: #041F5F; }
+  header.header .right-toolbar {
+    padding-right: 15px; }
