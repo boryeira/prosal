@@ -36,6 +36,8 @@
         </div>
      </div>
   </div>
+  <div class="sidenav-backdrop backdrop"></div>
+
 
   <!-- CORE PLUGINS-->
   <script src="{{asset('/js/jquery.min.js')}}"></script>

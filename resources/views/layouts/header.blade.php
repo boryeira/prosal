@@ -1,6 +1,6 @@
 <!-- START HEADER-->
 <header class="header">
-    <div class="header-topbar">
+    <div class="header-topbar ">
         <div class="wrapper d-flex">
             <div class="page-brand">
                 <a class="link" href="index.html">
@@ -11,7 +11,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center flex-1">
                 <!-- START TOP-LEFT TOOLBAR-->
-                <ul class="nav navbar-toolbar">
+                <ul class="nav navbar-toolbar ">
                     <li>
                         <a class="nav-link sidebar-toggler js-sidebar-toggler" href="javascript:;">
                             <span class="icon-bar"></span>
@@ -31,7 +31,7 @@
         <div class="wrapper" id="navbar-wrapper">
             <ul class="nav-menu">
                 <li class="dropdown active">
-                    <a class="dropdown-toggle" href="href=&quot;javascript:;" data-toggle="dropdown">Propiedades
+                    <a class="dropdown-toggle"  data-toggle="dropdown">Propiedades
                         <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li>

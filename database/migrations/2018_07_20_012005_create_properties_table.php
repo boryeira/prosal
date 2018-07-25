@@ -18,6 +18,7 @@ class CreatePropertiesTable extends Migration
             $table->integer('folio');
             $table->string('address');
             $table->unsignedInteger('comuna_id');
+            $table->string('tipo');
             $table->timestamps();
         });
 

@@ -8,7 +8,8 @@ $factory->define(App\Property::class, function (Faker $faker) {
     return [
       'folio' => $faker->unique()->numberBetween($min = 1000, $max = 9000),
       'address' => $faker->streetAddress,
-      'comuna_id' => App\Comuna::inRandomOrder()->first()->id
+      'comuna_id' => App\Comuna::inRandomOrder()->first()->id,
+      'tipo' => $faker->randomElement($array = array ('casa','departamento','oficina','terreno'))
     ];
 });
 

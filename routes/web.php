@@ -14,4 +14,5 @@
 
 Auth::routes();
 
+Route::resource('properties','PropertyController');
 Route::get('/', 'HomeController@index')->name('home');

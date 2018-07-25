@@ -12,10 +12,10 @@ class Property extends Model
   }
   public function images()
   {
-      return $this->hasMany('App\PropertyImage','property_image_id');
+      return $this->hasMany('App\PropertyImage');
   }
   public function docs()
   {
-      return $this->hasMany('App\PropertyDoc','property_doc_id');
+      return $this->hasMany('App\PropertyDoc');
   }
 }
