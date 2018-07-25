@@ -7,7 +7,7 @@
               <div class="ibox-head">
                   <div class="ibox-title">Propiedades</div>
                   <div class="ibox-tools">
-                    <a href="{{url('/properties/create')}}" class="btn btn-success text-white">Nueva Propiedad</a>
+                    <a  class="btn btn-success text-white">Nueva Propiedad</a>
 
                   </div>
               </div>
