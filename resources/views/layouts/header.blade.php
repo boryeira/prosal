@@ -35,10 +35,10 @@
                         <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="">Ver todas</a>
+                            <a class="dropdown-item" href="{{url('/')}}">Ver todas</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="">Crear nueva</a>
+                            <a class="dropdown-item" href="{{url('/property/create')}}">Crear nueva</a>
                         </li>
                     </ul>
                 </li>
