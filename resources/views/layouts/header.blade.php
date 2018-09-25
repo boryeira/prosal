@@ -3,7 +3,7 @@
     <div class="header-topbar ">
         <div class="wrapper d-flex">
             <div class="page-brand">
-                <a class="link" href="index.html">
+                <a class="link" href="/">
                     <span class="brand">Pro
                         <span class="brand-tip">sal</span>
                     </span>
