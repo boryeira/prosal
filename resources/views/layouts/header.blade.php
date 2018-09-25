@@ -38,7 +38,7 @@
                             <a class="dropdown-item" href="{{url('/')}}">Ver todas</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="{{url('/property/create')}}">Crear nueva</a>
+                            <a class="dropdown-item" href="{{url('/')}}">Crear nueva</a>
                         </li>
                     </ul>
                 </li>
